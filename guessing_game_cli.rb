@@ -5,7 +5,7 @@ def run_guessing_game
   a.gets
     if a == b
       puts "You guessed the correct number!"
-    else
+    elsif a != b
       puts "Sorry! The computer guessed <number>."
     end
 end
